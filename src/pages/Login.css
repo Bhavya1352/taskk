@@ -1,0 +1,85 @@
+.login-page {
+  min-height: 812px;
+  background: #f7f8f9;
+}
+
+.login-content {
+  padding: 36px 24px 24px;
+}
+
+.login-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1d2226;
+  line-height: 1.25;
+  margin-bottom: 8px;
+}
+
+.login-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6b7280;
+  line-height: 1.55;
+  margin-bottom: 32px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* === Fieldset-based floating label === */
+.input-field {
+  border: 1px solid #cbcbcb;
+  border-radius: 8px;
+  padding: 2px 14px 12px;
+  margin: 0;
+  background: transparent;
+}
+
+.input-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #6c25ff;
+  padding: 0 4px;
+  margin-left: -2px;
+}
+
+.input-control {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-family: 'Rubik', sans-serif;
+  color: #1d2226;
+  background: transparent;
+  padding: 0;
+  margin-top: 2px;
+}
+
+.input-control::placeholder {
+  color: #9ca3af;
+  font-weight: 400;
+}
+
+/* === Login button (gray per design) === */
+.login-btn {
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Rubik', sans-serif;
+  cursor: pointer;
+  border: none;
+  background: #cbcbcb;
+  color: #ffffff;
+  margin-top: 4px;
+  transition: background 0.2s;
+  letter-spacing: 0.2px;
+}
+
+.login-btn:hover {
+  background: #b8b8b8;
+}

@@ -1,0 +1,124 @@
+.settings-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 812px;
+  background: #f7f8f9;
+}
+
+/* === Header === */
+.settings-header {
+  padding: 20px 24px 14px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.settings-heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1d2226;
+}
+
+/* === Body === */
+.settings-body {
+  padding: 24px 24px 0;
+}
+
+.profile-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 22px;
+}
+
+.avatar-wrapper {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.avatar-img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.camera-badge {
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #6c25ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #f7f8f9;
+}
+
+.profile-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.profile-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1d2226;
+}
+
+.profile-email {
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 400;
+}
+
+/* === Bio === */
+.profile-bio {
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.65;
+  margin-bottom: 24px;
+}
+
+.dashed-divider {
+  border-bottom: 1.5px dashed #cbcbcb;
+}
+
+/* === Spacer === */
+.settings-spacer {
+  flex: 1;
+}
+
+/* === Bottom Nav === */
+.bottom-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 14px 24px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s;
+}
+
+.nav-btn:hover {
+  opacity: 0.65;
+}
+
+.nav-counter {
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 500;
+  min-width: 44px;
+  text-align: center;
+}
