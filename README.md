@@ -3,8 +3,7 @@
 A pixel-perfect React application built as a qualifier task for an interview assignment. The mobile app interface is centered on the webpage with seamless navigation between all pages.
 
 ## 🚀 Live Demo
-
-[View Live on Vercel](https://popx-app.vercel.app)
+https://taskk-alpha-seven.vercel.app/
 
 ## ✨ Features
 
